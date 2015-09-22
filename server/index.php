@@ -10,7 +10,7 @@
         fclose($f);
         
         if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
-            $location = "Location: http://". $ip;
+            $location = "Location: http://". $ip . ":12345"; // you can change the port!
             header($location); 
         }
         else error_log($ip . " is not a valid address.\n", 3, "error.log");
