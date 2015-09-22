@@ -27,6 +27,7 @@ pyddns makes your current website a real Dynamic Domain Name Server, without eff
 end up with the possibility to reach your home server with `http://www.example.com/home` as it will always point to the most recent IP.
 The process that maintains the IP updated is automatic.
 
+*P.S.: "pyddns" comes from "Pi" + "My" + "DDNS"*
 
 How to install it?
 ------------------
