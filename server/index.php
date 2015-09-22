@@ -10,7 +10,7 @@
         fclose($f);
         
         if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
-            $location = "Location: http://". $ip .":314";
+            $location = "Location: http://". $ip;
             header($location); 
         }
         else error_log($ip . " is not a valid address.\n", 3, "error.log");
